@@ -1,0 +1,129 @@
+.reg_header {
+    height: 84px;
+    line-height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.reg_area {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #dfdfdf;
+    color: #333;
+}
+
+.reg_area h3 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reg_area h3 .login {
+    font-size: 14px;
+}
+
+
+/* 注册表单 */
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.reg_form li {
+    margin-bottom: 20px;
+}
+
+.reg_form li label {
+    /* 为了实现提示文字的右对齐效果 */
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form li .inp {
+    border: 1px solid #dfdfdf;
+    width: 242px;
+    height: 34px;
+}
+
+.reg_form li .error {
+    margin-left: 5px;
+    color: #df3033;
+}
+
+.reg_form li .error .error_icon,
+.reg_form li .correct .correct_icon {
+    display: inline-block;
+    /* 让文字和图片居中对齐 */
+    vertical-align: middle;
+    margin-bottom: 2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.reg_form li .correct {
+    margin-left: 5px;
+    color: #40b83f;
+}
+
+.reg_form li .correct .correct_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.reg_form .safe {
+    margin-top: -10px;
+    padding-left: 163px;
+}
+
+.reg_form .safe em {
+    padding: 0 12px;
+    color: white;
+}
+
+.reg_form .safe .weak {
+    background-color: #de1111;
+}
+
+.reg_form .safe .mid {
+    background-color: #40b83f;
+}
+
+.reg_form .safe .str {
+    background-color: #f79100;
+}
+
+.reg_form .agree {
+    margin: 40px 0;
+    padding-left: 95px;
+}
+
+.reg_form .agree input {
+    /* input也是行内块元素，也用vertical-align来对齐 */
+    vertical-align: middle;
+}
+
+.reg_form .agree a {
+    color: #1ba1e6;
+}
+
+.reg_form li .btn {
+    /* margin-top: 20px; */
+    margin-left: 100px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* 底部 */
+
+.reg_footer {
+    height: 120px;
+}

@@ -1,0 +1,56 @@
+/* 列表页特有部分的样式表 */
+
+.header .sk {
+    position: absolute;
+    top: 42px;
+    left: 183px;
+    padding-left: 14px;
+    border-left: 1px solid #b1191a;
+}
+
+.nav {
+    /* 为了使左右两块不同大小的文字在同一水平线上，就让右边的行高增大，结果就超过了盒子的高度，会影响下面的盒子。所以要隐藏溢出的部分 */
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav .sk_list li a {
+    display: block;
+    width: 118px;
+    line-height: 47px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav .sk_item li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+
+.nav .sk_item li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+
+/* list主体 */
+
+.list-bd li {
+    float: left;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    /* 为了防止鼠标经过增加边框效果时，图片的大小改变造成视觉上的移动，所以在原来就给图片加一个看不见得边框 */
+    border: 1px solid transparent;
+}
+
+.list-bd li:hover {
+    border: 1px solid #b1191a;
+}
